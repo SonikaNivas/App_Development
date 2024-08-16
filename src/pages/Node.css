@@ -1,0 +1,162 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  color: #444;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+img {
+  max-width: 100px;
+  border-radius: 4px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.no-data {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+} */
+
+.node-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.node-heading {
+  text-align: center;
+  color: #333;
+}
+
+.node-section {
+  margin-bottom: 20px;
+}
+
+.node-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.node-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.node-subheading {
+  color: #444;
+  margin-top: 20px;
+}
+
+.node-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.node-table th, .node-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.node-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.node-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.node-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.node-image {
+  max-width: 100px;
+  border-radius: 4px;
+}
+
+.node-paragraph {
+  margin: 10px 0;
+}
+
+.node-no-data {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+/* .back-to-home-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+} */
+
+/* .back-to-home-button:hover {
+  background-color: #45a049;
+} */
+

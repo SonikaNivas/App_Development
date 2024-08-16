@@ -1,0 +1,70 @@
+
+.home-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0); /* Adjust text color as needed */
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    filter: brightness(0.7); /* Adjust brightness for better text visibility */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+
+
+  }
+  
+  .content h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .content p {
+    font-size: 1.5em;
+  }
+  /* .get-started-button{
+    /* margin-top:"200px" ;
+    margin-bottom: "100px";
+    margin-left: "300px";
+    padding: 20px;
+    width: 200px;
+    margin:285px;
+    color: white;
+    background-color: rgba(48, 48, 125, 0.789);
+    
+  }
+   */ 
+   .get-started-button {
+    padding: 20px;
+    width: 200px;
+    margin: 285px;
+    color: white;
+    background-color: rgba(230, 191, 129, 0.908);
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .get-started-button:hover {
+    background-color: rgba(230, 191, 129, 0.542);
+    transform: scale(1.05);
+  }

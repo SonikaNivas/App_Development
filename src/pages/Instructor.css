@@ -1,0 +1,77 @@
+.team-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .team-role {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .team-bio {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .demo-button,
+  .hire-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .demo-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .demo-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hire-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .hire-button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,94 @@
+/* Center the container on the screen */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Styling for the signup container */
+  .signup-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Styling for the title */
+  .signup-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for each input group */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Styling for labels */
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling for input fields */
+  .input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Input focus styling */
+  .input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Styling for the submit button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for error messages */
+  .error {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the login link */
+  .login-link {
+    margin-top: 20px;
+  }
+  
+  /* Styling for the login link anchor */
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the login link anchor */
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

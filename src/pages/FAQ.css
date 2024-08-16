@@ -1,0 +1,312 @@
+/* .faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  } */
+  
+  /* .faq {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .faq:hover {
+    background: #eee;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown-icon {
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    transform: rotate(318deg);
+    transition: transform 0.3s;
+  }
+  
+  .dropdown-icon.open {
+    transform: rotate(0deg);
+  }
+  
+  .faq-answer {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    margin-top: 10px;
+    max-height: 0;
+    padding: 0 20px;
+  }
+  
+  .faq-answer.open {
+    max-height: 200px;
+    padding: 20px;
+  }
+  
+  .search-bar-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin: 0 10px 20px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    padding: 5px 0px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333; */
+  
+  /* .faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    position: relative; 
+  } */
+  /* .faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    position: relative; 
+    size: 100px; /* Ensure padding is included in the width and height 
+  } */
+
+/* FAQ.css */
+
+/* .faq-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto; 
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  position: relative; 
+  box-sizing: border-box; 
+}
+
+.faq-container-inner {
+  padding: 20px;
+}
+
+.faq {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.faq-answer {
+  padding: 10px;
+  display: none;
+}
+
+.faq-answer.open {
+  display: block;
+}
+
+.search-bar-container {
+  margin-top: 20px;
+  display: flex; 
+}
+
+.search-bar {
+  flex: 1; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  padding: 10px 20px; 
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.search-result {
+  margin-top: 20px;
+}
+
+.dropdown-icon {
+  float: right;
+  transition: transform 0.3s;
+}
+
+.dropdown-icon.open {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 600px) {
+  .search-bar-container {
+    flex-direction: column;
+  }
+  .search-bar, .submit-button {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .submit-button {
+    margin-top: 10px;
+    border-left: 1px solid #ccc;
+  }
+} */
+
+/* FAQ.css */
+
+.faq-container {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: calc(100% - 100px); /* Ensures full width minus the margins */
+  height: 100vh; /* 90% of the viewport height */
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center the inner content */
+  align-items: center; /* Vertically center the inner content */
+}
+.back-to-home-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.faq-container-inner {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-sizing: border-box; /* Ensure padding is included in the width and height */
+}
+
+.faq {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.faq-answer {
+  padding: 10px;
+  display: none;
+}
+
+.faq-answer.open {
+  display: block;
+}
+
+.search-bar-container {
+  margin-top: 20px;
+  display: flex; /* Use flexbox to align search bar and button */
+}
+
+.search-bar {
+  flex: 1; /* Take up remaining space */
+  margin-left: 80px;
+  padding: 15px 230px;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 5px 5px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  padding: 10px 10px; /* Make the submit button smaller */
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.search-result {
+  margin-top: 20px;
+}
+
+.dropdown-icon {
+  float: right;
+  transition: transform 0.3s;
+}
+
+.dropdown-icon.open {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 600px) {
+  .search-bar-container {
+    flex-direction: column;
+  }
+  .search-bar, .submit-button {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .submit-button {
+    margin-top: 10px;
+    border-left: 1px solid #ccc;
+  }
+}
+
+
